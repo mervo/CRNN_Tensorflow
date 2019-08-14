@@ -2,13 +2,23 @@ name: crnntf
 channels:
   - defaults
 dependencies:
-  - pip=10.0.1
+  - pip
   - python=3.5.5
   - setuptools=39.1.0
   - wheel=0.31.1
+  - glog
+  - cudnn=7.6.0=cuda10.0_0
   - pip:
-    - tensorflow_gpu==1.3.0
-    - numpy==1.13.1
-    - opencv_python==3.2.0.7
-    - matplotlib==2.0.2
-    - easydict==1.6
+    - tensorflow-gpu
+    - glog
+    - easydict
+    - numpy
+    - tensorflow_gpu
+    - tqdm
+    - matplotlib
+    - typing
+    - wordninja
+    - opencv_contrib_python
+    - pdf2image
+    - scikit_learn
+    
